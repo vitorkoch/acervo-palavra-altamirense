@@ -1,0 +1,48 @@
+@use "theme";
+
+.footer {
+  width: 100%;
+  padding: 16px;
+  background-color: theme.$color-secondary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+
+  &__copyright {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__linklist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 8px;
+
+    &__item + &__item::before {
+      content: "\2022";
+      padding-right: 8px;
+    }
+
+    &__item {
+      display: flex;
+    }
+    &__link {
+      color: black;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}

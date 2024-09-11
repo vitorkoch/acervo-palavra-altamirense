@@ -1,0 +1,18 @@
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+.news-carousel {
+  background-color: rgb(137, 186, 105);
+  width: clamp(360px, 900px, 95%);
+  aspect-ratio: 16/9;
+}
+.news-carousel__slides__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.news-carousel__slides__image {
+  height: 100%;
+  border-radius: 40px;
+}
+
+/*# sourceMappingURL=news-carousel.css.map */

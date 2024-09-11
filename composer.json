@@ -1,0 +1,8 @@
+{
+    "name": "larri/larri-site",
+    "autoload": {
+        "psr-4": {
+            "Larri\\LarriSite\\": "src/"
+        }
+    }
+}

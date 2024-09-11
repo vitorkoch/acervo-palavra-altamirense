@@ -1,0 +1,14 @@
+@use "theme";
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: theme.$color-secondary !important;
+  color: theme.$color-base-dark;
+  &__content {
+    width: 100%;
+  }
+}

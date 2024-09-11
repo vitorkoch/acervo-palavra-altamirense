@@ -1,0 +1,21 @@
+@use "news-carousel";
+@forward "globals.scss";
+
+main {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0 0 0;
+  }
+}

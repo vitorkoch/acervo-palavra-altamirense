@@ -1,0 +1,14 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(37, 34%, 87%) !important;
+  color: hsl(36, 50%, 6%);
+}
+.navbar__content {
+  width: 100%;
+}
+
+/*# sourceMappingURL=navbar.css.map */
